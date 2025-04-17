@@ -26,5 +26,5 @@ otel-logs-pipeline:
         password: "<PASSWORD>"
         bulk_size: 10
         index_type: custom
-        index: business-reports-logs-%{YYYY.ww}
+        index: your-app-logs-%{YYYY.ww}
         number_of_replicas: 0

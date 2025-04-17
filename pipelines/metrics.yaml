@@ -24,6 +24,6 @@ otel-metrics-pipeline:
         password: "<PASSWORD>"
         insecure: true
         index_type: custom
-        index: metrics-%{yyyy.MM.dd}
+        index: your-app-metrics-%{yyyy.MM.dd}
         #max_retries: 20
         bulk_size: 4
